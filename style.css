@@ -1,10 +1,34 @@
 
-.header {
+body {
+	margin: 0;
+}
+
+.headerh {
 	background-color: #d25145; /* red */
-  height: 150px;
+  height: 138px;
   width: 100%;
-  transition:0.5s linear all;
+ /* transition:0.5s linear all; */
  
+}
+
+.headera {
+	background-color: #ecb74e; /* yellow */
+  height: 138px;
+  width: 100%;
+ /* transition:0.5s linear all; */
+ 
+}
+
+.headerb {
+	background-color: #9fc8b8; /* red */
+  height: 138px;
+  width: 100%;
+ /* transition:0.5s linear all; */
+ 
+}
+
+.logo {
+	margin-left:12px;
 }
 
 .header.blog {
@@ -24,6 +48,7 @@
 }
 
 .footer {
+
 	background-color: #657474; /* grey */
 }
 .buttons {

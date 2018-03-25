@@ -23,12 +23,15 @@ app.config(function($routeProvider) {
 
 app.controller('HomeController', function($scope) {
   $scope.message = 'Hello from HomeController';
+  $scope.logo = '/logo.png';
 });
 
 app.controller('BlogController', function($scope) {
   $scope.message = 'Hello from BlogController';
+  $scope.logo = '/logo.png';
 });
 
 app.controller('AboutController', function($scope) {
   $scope.message = 'Hello from AboutController';
+  $scope.logo = '/logo.png';
 });
