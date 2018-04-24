@@ -13,9 +13,14 @@ app.config(function($routeProvider) {
     controller  : 'BlogController'
   })
 
-  .when('/about', {
-    templateUrl : 'pages/about.html',
-    controller  : 'AboutController'
+  .when('/pport', {
+    templateUrl : 'pages/pport.html',
+    controller  : 'PController'
+  })
+
+  .when('/aport', {
+    templateUrl : 'pages/aport.html',
+    controller  : 'AController'
   })
 
   .otherwise({redirectTo: '/'});
@@ -31,7 +36,12 @@ app.controller('BlogController', function($scope) {
   $scope.logo = '/logo.png';
 });
 
-app.controller('AboutController', function($scope) {
+app.controller('AController', function($scope) {
+  $scope.message = 'Hello from AboutController';
+  $scope.logo = '/logo.png';
+});
+
+app.controller('PController', function($scope) {
   $scope.message = 'Hello from AboutController';
   $scope.logo = '/logo.png';
 });

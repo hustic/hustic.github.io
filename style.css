@@ -1,18 +1,15 @@
 
-body {
-	margin: 0;
-}
 
 .headerh {
-	background-color: #d25145; /* red */
+	background-color: #657474; /* red */
   height: 138px;
   width: 100%;
  /* transition:0.5s linear all; */
  
 }
 
-.headera {
-	background-color: #ecb74e; /* yellow */
+.headerp {
+	background-color: #9fc8b8; /* yellow */ 
   height: 138px;
   width: 100%;
  /* transition:0.5s linear all; */
@@ -20,7 +17,15 @@ body {
 }
 
 .headerb {
-	background-color: #9fc8b8; /* red */
+	background-color: #d25145; /* red */ 
+  height: 138px;
+  width: 100%;
+ /* transition:0.5s linear all; */
+ 
+}
+
+.headera {
+	background-color: #ecb74e; /* red */
   height: 138px;
   width: 100%;
  /* transition:0.5s linear all; */
@@ -31,6 +36,7 @@ body {
 	margin-left:12px;
 }
 
+/*
 .header.blog {
   background-color: black;
 }
@@ -49,26 +55,21 @@ body {
 
 .footer {
 
-	background-color: #657474; /* grey */
+	background-color: #657474; 
 }
+/*
 .buttons {
-	background-color: #657474; /* grey */
+	background-color: #657474; 
 	text-decoration: none;
 	margin-top: 50px;
 	padding-bottom: 40px;
-}
+} */
 
+/*
 .dummy {
-	background-color: #657474; /* grey */
+	background-color: #657474; 
 	width: 50%;
 	margin-top: 120px;
-}
-
-.nav-collapse {
-	background-color: #657474;
-
-
-
 }
 
 .nav-item {
@@ -80,7 +81,7 @@ body {
 }
 
 .jumbotron {
-	background-color: #e5dfda; /* white */
+	background-color: #e5dfda; 
 	margin-top: 100px;
 
 }
@@ -97,3 +98,4 @@ body {
 .highlight.on-remove {
   background:black;
 }
+*/
