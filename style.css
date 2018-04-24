@@ -1,14 +1,12 @@
-
-
-.headerh {
+#headerh {
 	background-color: #657474; /* red */
   height: 138px;
   width: 100%;
- /* transition:0.5s linear all; */
+  transition:0.5s linear all;
  
 }
 
-.headerp {
+#headerp {
 	background-color: #9fc8b8; /* yellow */ 
   height: 138px;
   width: 100%;
@@ -16,7 +14,7 @@
  
 }
 
-.headerb {
+#headerb {
 	background-color: #d25145; /* red */ 
   height: 138px;
   width: 100%;
@@ -24,7 +22,7 @@
  
 }
 
-.headera {
+#headera {
 	background-color: #ecb74e; /* red */
   height: 138px;
   width: 100%;
