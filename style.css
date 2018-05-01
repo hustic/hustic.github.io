@@ -1,0 +1,99 @@
+#headerh {
+	background-color: #657474; /* red */
+  height: 138px;
+  width: 100%;
+  transition:0.5s linear all;
+ 
+}
+
+#headerp {
+	background-color: #9fc8b8; /* yellow */ 
+  height: 138px;
+  width: 100%;
+ /* transition:0.5s linear all; */
+ 
+}
+
+#headerb {
+	background-color: #d25145; /* red */ 
+  height: 138px;
+  width: 100%;
+ /* transition:0.5s linear all; */
+ 
+}
+
+#headera {
+	background-color: #ecb74e; /* red */
+  height: 138px;
+  width: 100%;
+ /* transition:0.5s linear all; */
+ 
+}
+
+.logo {
+	margin-left:12px;
+}
+
+/*
+.header.blog {
+  background-color: black;
+}
+
+.header.blog-add {
+	background-color: black;
+}
+
+.header.blog-remove {
+	background-color: black;
+}
+
+.header.art {
+	background-color: white; 
+}
+
+.footer {
+
+	background-color: #657474; 
+}
+/*
+.buttons {
+	background-color: #657474; 
+	text-decoration: none;
+	margin-top: 50px;
+	padding-bottom: 40px;
+} */
+
+/*
+.dummy {
+	background-color: #657474; 
+	width: 50%;
+	margin-top: 120px;
+}
+
+.nav-item {
+	padding-top: 20px;
+}
+
+.div {
+	background-color: ; 
+}
+
+.jumbotron {
+	background-color: #e5dfda; 
+	margin-top: 100px;
+
+}
+
+.highlight {
+  transition:0.5s linear all;
+}
+.highlight.on-add {
+  background:white;
+}
+.highlight.on {
+  background:yellow;
+}
+.highlight.on-remove {
+  background:black;
+}
+*/
