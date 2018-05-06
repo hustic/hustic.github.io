@@ -1,0 +1,18 @@
+#plain div {
+	background-color: #e5dfda;
+}
+
+#plain a {
+	padding-left: 75px;
+	padding-right: 75px;
+	color: #9fc8b8;
+	border-color: #9fc8b8;
+	border-radius: 0px;
+}
+
+#plain a:hover{
+	background-color: #9fc8b8;
+	color: #0b0e09 !important;
+}
+
+
