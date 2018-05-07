@@ -2,6 +2,10 @@
 	background-color: #e5dfda;
 }
 
+#red div {
+	background-color: #d25145;
+}
+
 #plain a {
 	padding-left: 75px;
 	padding-right: 75px;
