@@ -8,20 +8,21 @@ app.config(function($routeProvider) {
     controller  : 'HomeController'
   })
 
+  .when('/blog/', {
+    templateUrl : 'pages/blog.html',
+    controller  : 'BlogController'
+  })
+
   .otherwise({redirectTo: '/'});
 });
 
 app.controller('HomeController', function($scope) {
-  $scope.message = 'Hello from HomeController';
   $scope.logo = 'assets/logo.png';
+});
 
-  $scope.changeColor = function(person, bool) {
-    if(bool === true) {
-        $scope.personColour = {color: '#'+person.colour};
-    } else if (bool === false) {
-        $scope.personColour = {color: 'white'}; //or, whatever the original color is
-    }
-};
+app.controller('BlogController', function($scope) {
+  $scope.message = 'Hello from BlogController';
+  $scope.logo = 'assets/logo.png';
 });
 
 
