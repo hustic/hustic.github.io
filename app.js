@@ -25,7 +25,21 @@ app.controller('BlogController', function($scope) {
   $scope.logo = 'assets/logo.png';
 });
 
-particlesJS('particles-js',
+app.controller('particlesCtrl', ['$scope', particlesCtrl]);
+app.directive('particlesDrv', ['$window', '$log', particlesDrv]);
+
+
+function particlesCtrl($scope) {
+  $scope.showParticles = true;
+}
+
+function particlesDrv($window, $log) {
+  return {
+    restrict: 'A',
+    template: '<div class="particleJs" id="particleJs"></div>',
+    link: function(scope, element, attrs, fn) {
+      $log.debug('test');
+      $window.particlesJS('particleJs',
   
   {
     "particles": {
