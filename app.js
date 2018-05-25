@@ -25,9 +25,3 @@ app.controller('BlogController', function($scope) {
   $scope.logo = 'assets/logo.png';
 });
 
-/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS.load('particles-js', 'assets/particles.json', function() {
-  console.log('callback - particles.js config loaded');
-});
-
-
