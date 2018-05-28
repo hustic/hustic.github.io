@@ -1,17 +1,20 @@
-/* -----------------------------------------------
-/* How to use? : Check the GitHub README
-/* ----------------------------------------------- */
+var app = angular.module('hustic', []);
 
-/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
-/*
-particlesJS.load('particles-js', 'particles.json', function() {
-  console.log('particles.js loaded - callback');
-});
-*/
+app.controller('particlesCtrl', ['$scope', particlesCtrl]);
+app.directive('particlesDrv', ['$window', '$log', particlesDrv]);
 
-/* Otherwise just put the config content (json): */
+function particlesCtrl($scope) {
+  $scope.showParticles = true;
+}
 
-particlesJS('particles-js',
+
+function particlesDrv($window, $log) {
+  return {
+    restrict: 'A',
+    template: '<div class="particles-js" id="particles-js"></div>',
+    link: function(scope, element, attrs, fn) {
+      $log.debug('test');
+      $window.particlesJS('particles-js',
   
   {
   "particles": {
@@ -122,6 +125,7 @@ particlesJS('particles-js',
     }
   },
   "retina_detect": true
+});
 }
-
-);
+};
+}
