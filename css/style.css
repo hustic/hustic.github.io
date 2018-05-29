@@ -23,6 +23,15 @@ canvas{
   vertical-align:bottom;
 }
 
+.footer {
+   position: fixed;
+   left: 49%;
+   bottom: 7px;
+   width:0;
+   background-color: transparent;
+   color: black;
+   text-align: left;
+}
 
 
 #plain div {
