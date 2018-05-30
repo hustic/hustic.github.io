@@ -69,7 +69,6 @@ function particlesDrv($window, $log) {
     link: function(scope, element, attrs, fn) {
       $log.debug('test');
       $window.particlesJS('particles-js',
-  
   {
   "particles": {
     "number": {
