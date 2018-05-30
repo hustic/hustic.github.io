@@ -24,15 +24,25 @@ canvas{
 }
 
 .footer {
-   position: fixed;
-   left: 49%;
-   bottom: 7px;
-   width:0;
-   background-color: transparent;
-   color: black;
-   text-align: left;
+  width:100%;
+  text-align:center;
+  position: fixed;
+  bottom: 7px;
+  background-color: transparent;
+  color: black;
 }
 
+.material-icons {
+  font-size: 31px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
 
 #plain div {
 	background-color: transparent;
@@ -56,10 +66,9 @@ canvas{
 	color: #0b0e09 !important;
 }
 
-.material-icons {
-	font-size: 31px;
-	position: 50% 70%;
-}
+
+
+
 /* ---- particles.js container ---- */
 
 #particles-js{
@@ -78,4 +87,24 @@ canvas{
   bottom:0;
   left:0;
   z-index:-1; 
+}
+
+@media only screen and (max-width:400px) {
+    #particles-js{
+      width: 100%;
+      height: 100%;
+      background-color: #e5dfda;
+      background-image: url('../assets/logo.png');
+      background-size: cover;
+      background-size: 47%;
+      background-position: 50% 43%;
+      background-repeat: no-repeat;
+
+      position:fixed;
+      top:0;
+      right:0;
+      bottom:0;
+      left:0;
+      z-index:-1;
+    }
 }

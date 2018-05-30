@@ -3,10 +3,23 @@ var app = angular.module('hustic', []);
 app.controller('particlesCtrl', ['$scope', particlesCtrl]);
 app.directive('particlesDrv', ['$window', '$log', particlesDrv]);
 
+
+
 function particlesCtrl($scope) {
   $scope.showParticles = true;
 }
 
+function menu() {
+    var x = document.getElementById("menu");
+    var y = document.getElementById("particles-js");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.backgroundImage = "url('')";
+    } else {
+        x.style.display = "none";
+        y.style.backgroundImage = "url('./assets/logo.png')";
+    }
+} 
 
 function particlesDrv($window, $log) {
   return {
