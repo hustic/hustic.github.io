@@ -76,7 +76,7 @@ function particlesDrv($window, $log) {
       "value": 160,
       "density": {
         "enable": true,
-        "value_area": 750
+        "value_area": 600
       }
     },
     "color": {
