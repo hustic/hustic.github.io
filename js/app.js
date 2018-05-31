@@ -1,35 +1,4 @@
-var app = angular.module('hustic', ['ngAnimate']);
-
-app.controller('particlesCtrl', ['$scope', particlesCtrl]);
-app.directive('particlesDrv', ['$window', '$log', particlesDrv]);
-
-
-function menu() {
-    var x = document.getElementById("menu");
-    var y = document.getElementById("particles-js");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-        y.style.backgroundImage = "url('')";
-    } else {
-        x.style.display = "none";
-        y.style.backgroundImage = "url('./assets/logo.png')";
-    }
-} 
-
-
-/* ==========================================================================*/
-
-function particlesCtrl($scope) {
-  $scope.showParticles = true;
-}
-
-function particlesDrv($window, $log) {
-  return {
-    restrict: 'A',
-    template: '<div class="particles-js" id="particles-js"></div>',
-    link: function(scope, element, attrs, fn) {
-      $log.debug('test');
-      $window.particlesJS('particles-js',
+particlesJS('particles-js',
   {
   "particles": {
     "number": {
@@ -140,6 +109,3 @@ function particlesDrv($window, $log) {
   },
   "retina_detect": true
 });
-}
-};
-}
