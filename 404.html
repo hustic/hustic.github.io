@@ -18,12 +18,22 @@
 
 	<div id="particles-js"></div>
 
-	<div id="menu" style="display:none">YOYOYOYOOYYOYO </div>
+	<div id="menu" style="display:none">
+		<div class="jumbotron" id="list">
+  		<h1 class="display-4">Hello, world!</h1>
+		</div>
+	</div>
 
 	<div style="text-align:center;">
 	<button type="button" class="btn btn-outline-dark" id="toggle">:3</button></div>
 
 	<script type="text/javascript">
+	$(document).ready(function(){
+    	$("#toggle").click(function(){
+        	$("#menu").toggle();
+        	$("#particles-js").toggleClass("active");
+    	});
+	});
 
 	</script>
 
