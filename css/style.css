@@ -27,15 +27,19 @@ canvas{
   bottom: 15px;
   left: 50%;
   font-weight: bold;
-  text-align: center
+  text-align: center;
 }
 
-#list {
-  margin-top: 10%;
-  min-height: 50%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 50vh; /* These two lines are counted as one :-)       */
-  display: flex;
-  align-items: center;
+#menu {
+  position: fixed;
+  width: 500px;
+  height: 200px;
+  top: 45%;
+  left: 50%;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -100px; /* Negative half of height. */
+  margin-left: -250px;
 }
 
 /* ---- particles.js container ---- */
