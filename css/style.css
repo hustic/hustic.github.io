@@ -42,6 +42,18 @@ canvas{
   margin-left: -250px;
 }
 
+.toggle-content {
+	display: none;
+	height: 0;
+	overflow: hidden;
+	transition: height 350ms ease-in-out;
+}
+
+.toggle-content.is-visible {
+	display: block;
+	height: auto;
+}
+
 /* ---- particles.js container ---- */
 #particles-js{
   width: 100%;
