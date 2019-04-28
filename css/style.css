@@ -33,7 +33,7 @@ canvas{
 #photo {
   position: fixed;
   bottom: 15px;
-  left: 45%;
+  left: 47%;
   font-weight: bold;
   text-align: center;
 }
@@ -41,7 +41,7 @@ canvas{
 #eyes {
   position: fixed;
   bottom: 15px;
-  left: 55%;
+  left: 52%;
   font-weight: bold;
   text-align: center;
 }
@@ -110,5 +110,29 @@ canvas{
       bottom:0;
       left:0;
       z-index:-1;
+    }
+
+    #cat {
+      position: fixed;
+      bottom: 15px;
+      left: 50%;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    #photo {
+      position: fixed;
+      bottom: 15px;
+      left: 40%;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    #eyes {
+      position: fixed;
+      bottom: 15px;
+      left: 60%;
+      font-weight: bold;
+      text-align: center;
     }
 }
