@@ -26,15 +26,21 @@
 	</div>
 
 	<div style="text-align:center;">
-	<button type="button" class="btn btn-outline-dark" id="toggle" onclick="toggle()">:3</button></div>
+	<button id=":3" type="button" class="btn btn-outline-dark" id="toggle" onclick="toggle()">:3</button></div>
 
 	<script type="text/javascript">
 
-	var test = document.getElementById("menu");
+	var test = document.getElementById(":3");
 
 	test.addEventListener("mouseover", function( event ) {   
     // highlight the mouseover target
     event.target.style.color = "orange";
+    var x = document.getElementById("menu");
+  		if (x.style.display === "none") {
+    			x.style.display = "block";
+  		} else {
+    			x.style.display = "none";
+  		}
 
     // reset the color after a short delay
     setTimeout(function() {
