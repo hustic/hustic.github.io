@@ -25,14 +25,23 @@ canvas{
 #cat {
   position: fixed;
   bottom: 15px;
-  left: 55%;
+  left: 50%;
   font-weight: bold;
   text-align: center;
 }
 
 #photo {
+  position: fixed;
   bottom: 15px;
-  left: 45%;
+  left: 40%;
+  font-weight: bold;
+  text-align: center;
+}
+
+#eyes {
+  position: fixed;
+  bottom: 15px;
+  left: 60%;
   font-weight: bold;
   text-align: center;
 }
