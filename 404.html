@@ -30,6 +30,19 @@
 
 	<script type="text/javascript">
 
+	var test = document.getElementById("menu");
+
+	test.addEventListener("mouseover", function( event ) {   
+    // highlight the mouseover target
+    event.target.style.color = "orange";
+
+    // reset the color after a short delay
+    setTimeout(function() {
+      event.target.style.color = "";
+    }, 500);
+  }, false);
+
+
 	function toggle() {
 	var x = document.getElementById("menu");
   		if (x.style.display === "none") {
