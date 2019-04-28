@@ -25,10 +25,17 @@
 		</div>
 	</div>
 
+		<div id="tw" style="display:none">
+		<div class="jumbotron" id="list">
+  		<h1 class="display-4">Hello, tw!</h1>
+		</div>
+	</div>
+
 	<div style="text-align:center;">
-	<button type="button" class="btn btn-outline-dark" id="cat" onclick="toggle()">:3</button>
+	<button type="button" class="btn btn-outline-dark" id="cat">:3</button>
 	<button type="button" class="btn btn-outline-dark" id="photo" onclick="window.open('https://hustic.github.io/photography/','_blank');">&#128247</button>
 	<button type="button" class="btn btn-outline-dark" id="eyes" onclick="window.open('https://hustic.github.io/eyes_js/','_blank');">&#128064</button>
+	<button type="button" class="btn btn-outline-dark" id="cat" onclick="toggle()">:3</button>
 	</div>
 	
 
@@ -48,7 +55,7 @@
 
 
 	function toggle() {
-	var x = document.getElementById("menu");
+	var x = document.getElementById("tw");
   		if (x.style.display === "none") {
     			x.style.display = "block";
   		} else {
