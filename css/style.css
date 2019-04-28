@@ -25,7 +25,14 @@ canvas{
 #cat {
   position: fixed;
   bottom: 15px;
-  left: 50%;
+  left: 55%;
+  font-weight: bold;
+  text-align: center;
+}
+
+#photo {
+  bottom: 15px;
+  left: 45%;
   font-weight: bold;
   text-align: center;
 }
