@@ -46,6 +46,14 @@ canvas{
   text-align: center;
 }
 
+#tw {
+  position: fixed;
+  bottom: 15px;
+  left: 56%;
+  font-weight: bold;
+  text-align: center;
+}
+
 #menu {
   position: fixed;
   width: 500px;
@@ -58,7 +66,7 @@ canvas{
   margin-left: -250px;
 }
 
-#tw {
+#tribal {
   position: fixed;
   width: 200px;
   height: 500px;
