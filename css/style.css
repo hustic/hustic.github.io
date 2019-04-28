@@ -33,7 +33,7 @@ canvas{
 #photo {
   position: fixed;
   bottom: 15px;
-  left: 40%;
+  left: 45%;
   font-weight: bold;
   text-align: center;
 }
@@ -41,7 +41,7 @@ canvas{
 #eyes {
   position: fixed;
   bottom: 15px;
-  left: 60%;
+  left: 55%;
   font-weight: bold;
   text-align: center;
 }
