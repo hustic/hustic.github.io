@@ -78,11 +78,6 @@ canvas{
   margin-left: -250px;
 }
 
-#list {
-  width: 300px;
-  height: 800px;
-}
-
 .toggle-content {
 	display: none;
 	height: 0;
