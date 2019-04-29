@@ -27,7 +27,8 @@
 
 		<div id="tribal" style="display:none">
 		<div class="jumbotron" id="list">
-  		<h1 class="display-4">Hello, tw!</h1>
+  		<h1 class="display-4">Use the key</h1>
+  		<a href="javascript: var i = 2; var g = document.getElementById('plunder_list').rows.length; var c = setInterval( function() { if (document.getElementById('plunder_list').rows[i].cells[7].innerHTML < 6 && (document.getElementById('plunder_list').rows[i].cells[6].innerHTML == 0 || document.getElementById('plunder_list').rows[i].cells[6].innerHTML == '?')) { $('[class*='farm_icon_a']').eq(i-1).click(); } i++; if(i === g) { clearInterval(c); } }, 351); void(0);">Farm</a>
 		</div>
 	</div>
 
